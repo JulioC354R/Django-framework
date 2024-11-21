@@ -1,0 +1,19 @@
+criar arquivos para testar deve ser no padrão teste_nome.py
+
+começar um projeto django: (o . é onde eu especifico o caminho pra poder criar o meu projeto)
+
+django-admin startproject projeto .
+
+comando para rodar o projeto no modo dev:
+
+python manage.py runserver
+
+
+Entendendo os arquivos iniciais de um projeto Django:
+
+pastas:
+
+pastas para cache: __pycache__, .pytest_cache
+venv é a pasta do ambiente virtual python.
+db.sqlite3 é o banco de dados sqlite3
+a pasta com o nome do projeto vai ser o projeto e o app principal
